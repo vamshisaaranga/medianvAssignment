@@ -1,0 +1,145 @@
+.home-side-bar{
+    left: -250px;
+}
+.home-container{
+    display: flex;
+}
+.right-top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 100px;
+    width: 100%;
+}
+.right-top-container-tabs{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.home-top-tab-item{
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: darkgray;
+    font-weight: 600;
+}
+.search-input{
+    outline: none;
+    border-width: 0px;
+    width: 300px;
+}
+.search-input-container{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    border: 1px solid darkgray;
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+}
+.search-icon{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.create-container{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    border: 1px solid darkgray;
+    border-radius: 40px;
+    height: 30px;
+    background-color: #f6f6f6;
+}
+.create{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #6851a8;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.plus-icon{
+    color: #6851a8;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.home-right-container{
+    width: 100%;
+}
+.home-right{
+    min-height: 100vh;
+    background-color: #f6f6f6;
+}
+.home-status-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.status-container{
+    display: flex;
+    margin-left: 20px;
+}
+.status-date-container{
+    display: flex;
+    align-items: center;
+}
+.status-live{
+    font-family: sans-serif;
+    color: black;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.status-responded{
+    font-family: sans-serif;
+    color: green;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.status-unresponded{
+    font-family: sans-serif;
+    color: red;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.date-bidcreated{
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-right: 20px;
+    color: #373737;
+}
+.date-today{
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-right: 20px;
+    color: gray;
+}
+.filter-icon{
+    color: #02d1fa;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.vehicle-header-container{
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #182380;
+}
+.sno{
+    width: 5%;
+    margin-left: 10px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.v{
+    width: 12%;
+    margin-left: 10px;
+    color: #ffffff;
+}
+.home-vehicle-header-details-container{
+   margin: 20px;
+}
+.home-vehicle-details{
+    background-color: #ffffff;
+}
