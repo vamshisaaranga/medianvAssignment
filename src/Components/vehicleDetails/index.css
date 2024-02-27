@@ -32,6 +32,8 @@
     background-color: #ffffff;
     border-width: 0px;
     cursor: pointer;
+    color: #3f39f7;
+    font-weight: 600;
 }
 .vehicle-complete-details-container{
     display: flex;
@@ -41,16 +43,86 @@
 }
 .vehicle-location-details-container{
     margin: 10px;
+    width: 60%;
 }
 .viewless{
     background-color: #c5f4fa;
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 6px;
+    width: 100%;
 }
 .viewless-button{
     background-color: #c5f4fa;
     height: 30px;
     border: 1px solid #373737;
     border-radius: 4px;
+    cursor: pointer;
+}
+.locationSearch{
+    background-color: green;
+    border-radius: 50px;
+    border-width: 0px;
+}
+.locationOn{
+    color: red;
+    font-size: 20px;
+}
+.location{
+    font-family: sans-serif;
+    color: #3f39f7;
+    font-weight: 600;
+}
+.loadingpoint{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: green;
+    font-weight: 600;
+}
+.unloadingpoint{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: red;
+    font-weight: 600;
+}
+.viewless-button{
+    
+    margin: 20px;
+}
+.viewlessbuttoncontainer{
+  text-align: right;
+}
+.bidnoHead{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.suitcase{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.alignment{
+    display: flex;
+    align-items: center;
+}
+.vehicle-loading-date{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #373737;
+}
+.truck{
+    color: #3f39f7;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.vehicle-type{
+    color: #3f39f7;
+    font-weight: 600;
+}
+.vehicletype{
+    color: #055955;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
 }
